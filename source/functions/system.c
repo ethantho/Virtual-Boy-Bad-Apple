@@ -2,7 +2,7 @@
 #include <timer.h>
 #include "system.h"
 
-extern BYTE FontTiles[];
+//extern BYTE FontTiles[];
 
 void clearScreen()
 {
@@ -23,5 +23,5 @@ void initSystem()
 
 	//load font
 	// + 4 to skip the compression flag prepended to tiles data by VUEngine Studio's image converter
-	copymem((void*)(CharSeg3+0x1000), (void*)(FontTiles + 4), 1025 * 4);
+	//copymem((void*)(CharSeg3+0x1000), (void*)(FontTiles + 4), 1025 * 4);
 }
