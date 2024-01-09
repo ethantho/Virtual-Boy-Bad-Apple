@@ -75,16 +75,16 @@ int main()
 	
 
     //Setup worlds
-    WA[31].head = (WRLD_LON|WRLD_OVR);
+    WA[31].head = (WRLD_LON|WRLD_RON|WRLD_OVR);
     WA[31].w = 384;
     WA[31].h = 224;
 
-    WA[30].head = (WRLD_RON|WRLD_OVR);
-    WA[30].my = 224;
-    WA[30].w = 384;
-    WA[30].h = 224;
+    //WA[30].head = (WRLD_RON|WRLD_OVR);
+    //WA[30].my = 224;
+    //WA[30].w = 384;
+    //WA[30].h = 224;
 
-    WA[29].head = WRLD_END;
+    //WA[29].head = WRLD_END;
 		
     
 	//Set brightness registers
