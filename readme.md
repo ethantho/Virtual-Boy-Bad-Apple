@@ -1,8 +1,6 @@
-# libgcvb Barebone
+# EthanTho's Virtual Boy Bad Apple
 
-Barebone project to be used as the foundation of new libgccvb-based projects.
-
-Check out the following guide on how to configure VUEngine Studio for libgcvb: https://www.vuengine.dev/documentation/setup/usage-with-other-libraries/
+Since the previous implementation of Bad Apple on the Virtual Boy would not fit on my flash cart, I am working on a new implementation with a target size of 4 MB.
 
 ## License
 
